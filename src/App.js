@@ -36,27 +36,30 @@ function App() {
   return (
     <div className="rounded-lg px-10 py-5 ">
       <div className="flex justify-center  mt-5 mb-8">
-      <img src={Logo} alt="logo we invest" />
-       </div>
-      <img className=""src={House} alt="background house" />
-     
-      <div className="flex justify-center">
-        
+        <img src={Logo} alt="logo we invest" />
+      </div>
 
-        <h2 className="border-2 border-myblue hover:border-white font-borealis text-2xl  text-white  w-64  text-center p-8 py-5
-        ">
+      <img className="" src={House} alt="background house" />
+
+      <div className="flex justify-center">
+        <h2
+          className="border-4 border-myblue rounded-xl hover:animate-pulse bg-gradient-to-r from-orange-500 to-orange-700 hover:border-white font-borealis text-6xl  text-white  w-auto  text-center px-8 py-9
+        "
+        >
           {count}
         </h2>
-         </div>
-        <div className="flex justify-evenly flex-wrap mt-10 gap-5">
-          <Decrement decrement={decrementCountState} />
-          <Multiply multiply={multiplyCountState} />
-          <Increment increment={IncrementCountState} />
-          
       </div>
-      <div className="flex justify-center mt-5">
-      <Reset reset={resetCountState} />
+      <div className="flex justify-evenly flex-wrap mt-10 gap-5">
+        <Decrement decrement={decrementCountState} />
+        <Multiply multiply={multiplyCountState} />
+        <Increment increment={IncrementCountState} />
+        <div className="">
+          <Reset reset={resetCountState} />
+        </div>
       </div>
+      <p className="flex justify-center mt-10 font-borealis text-myblue text-2xl">
+        By Amoryne Jolimont
+      </p>
     </div>
   );
 }
