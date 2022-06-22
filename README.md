@@ -4,6 +4,10 @@ This technical test is meant for "Front-end intern" candidates.
 
 All of the tasks are described below. This already gives you an idea about the way we like to work. This is build to test your basic technical capabilities.
 
+## Preview
+
+![App Screenshot](./test-we-invest.png)
+
 ## Objectives
 
 -  Build this application by using this stack:
