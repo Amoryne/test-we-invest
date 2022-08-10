@@ -2,8 +2,6 @@
 
 This technical test is meant for "Front-end intern" candidates.
 
-All of the tasks are described below. This already gives you an idea about the way we like to work. This is build to test your basic technical capabilities.
-
 ## Preview
 
 ![App Screenshot](./test-we-invest.png)
@@ -15,13 +13,9 @@ All of the tasks are described below. This already gives you an idea about the w
    - TailwindCSS
 -  Your app should contains, at least, 2 components (One is already define)
 -  You must achieve it in less than 2 hours
--  We will be evaluating what you are able to do based on this. So show us what you're capable of 🚀
--  We also expect you to make the right decisions and to be able to explain why you make that decision
 
-## Delivery
-We'd like to ask you to create a git repo and manage this test in the same way you would for any other project.
 
-Once you're done with this test we'd please ask you to push this on a private GitHub repo and share it with [axel.avaux@weinvest.be](mailto:axel.avaux@weinvest.be).
+
 
 ## Tasks
 - [ ] Create a git repo 
@@ -34,5 +28,3 @@ Once you're done with this test we'd please ask you to push this on a private Gi
 - [ ] Let your imagination run wild and make a nice design with TailwindCSS
 - [ ] EXTRA: Convert the app in TypeScript
 
----
-Don't stress, everything will be fine 😉
